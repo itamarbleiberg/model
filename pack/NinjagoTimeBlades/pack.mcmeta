@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Ninjago Time Blades",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": "\n5 animated 3D Time Blades - Java 1.21.11",
+        "color": "gray"
+      }
+    ],
+    "min_format": 75,
+    "max_format": 75
+  }
+}

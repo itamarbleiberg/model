@@ -1,0 +1,31 @@
+Ninjago Time Blades - give commands (Minecraft Java Edition 1.21.11)
+====================================================================
+
+Paste one command into chat (cheats/op required) or into a command block.
+Every command is shorter than the 256-character chat limit.
+In a command block, replace @s with @p.
+The base item is an unbreakable netherite sword, so the blades hit like one.
+You can swap 'netherite_sword' for any other item id; the look comes only from the
+item_model component.
+
+1. Basic Time Blade  (להב זמן בסיסי)
+/give @s netherite_sword[item_model="timeblades:basic_time_blade",item_name={"text":"Basic Time Blade","color":"gold"},lore=[{"text":"Bronze, copper and silver. Golden time energy.","color":"gray","italic":false}],rarity="epic",unbreakable={}]
+
+2. Forward Time Blade  (להב הזמן קדימה)
+/give @s netherite_sword[item_model="timeblades:forward_time_blade",item_name={"text":"Forward Time Blade","color":"green"},lore=[{"text":"Speeds time up. Energy races to the tips.","color":"gray","italic":false}],rarity="epic",unbreakable={}]
+
+3. Slow-Mo Time Blade  (להב הזמן האיטי)
+/give @s netherite_sword[item_model="timeblades:slowmo_time_blade",item_name={"text":"Slow-Mo Time Blade","color":"blue"},lore=[{"text":"Slows time to a crawl. Lazy lightning.","color":"gray","italic":false}],rarity="epic",unbreakable={}]
+
+4. Pause Time Blade  (להב עצירת הזמן)
+/give @s netherite_sword[item_model="timeblades:pause_time_blade",item_name={"text":"Pause Time Blade","color":"red"},lore=[{"text":"Freezes time. Its energy stutters and halts.","color":"gray","italic":false}],rarity="epic",unbreakable={}]
+
+5. Reversal Time Blade  (להב היפוך הזמן)
+/give @s netherite_sword[item_model="timeblades:reversal_time_blade",item_name={"text":"Reversal Time Blade","color":"#FF9A1F"},lore=[{"text":"Turns time back. Energy flows to the hilt.","color":"gray","italic":false}],rarity="epic",unbreakable={}]
+
+Short versions (model only, default sword name):
+/give @s netherite_sword[item_model="timeblades:basic_time_blade"]
+/give @s netherite_sword[item_model="timeblades:forward_time_blade"]
+/give @s netherite_sword[item_model="timeblades:slowmo_time_blade"]
+/give @s netherite_sword[item_model="timeblades:pause_time_blade"]
+/give @s netherite_sword[item_model="timeblades:reversal_time_blade"]

@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "timeblades:item/slowmo_time_blade"
+  },
+  "swap_animation_scale": 1.6
+}
